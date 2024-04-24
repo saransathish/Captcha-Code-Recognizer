@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/styleform.css">
+    <title>Ticket Booking</title>
+</head>
+
+<body>
+    <div class="layout">
+        <form action="final.html">
+       <div class="cont">
+        <h1>Bus Ticket Reservation</h1>
+        <h2>First Name </h2>
+        <input type="text" name="First Name" placeholder="First Name">
+        
+        <h2>Last Name </h2>
+        <input type="text" name="Last Name" placeholder="Last Name">
+        <h2>Age </h2>
+        <input type="text" name="Age" placeholder="20">        
+
+        <h2>Gender  </h2>
+        <input type="text" name="Gender" placeholder="male">
+           
+        
+
+        <h2>Email Address</h2>
+        <input type="email" name="email" placeholder="example@mail.com">
+        <h2>Phone Number</h2>
+        <input type="tel" name="PhoneNO" placeholder="+88012345678910">
+        <h2> Source </h2>
+        <input type="text" name="Source" placeholder="Salem">
+        
+        <h2> Destination </h2>
+        <input type="text" name="Destination" placeholder="Coimbatore">
+        
+        <h2> Date </h2>
+        <input type="text" name="Date" placeholder="25/4/23">
+        
+        <br>
+       
+        <h2> Captcha Verification </h2>
+        
+         <br> 
+         <img id="random-image" >
+         
+        
+      <button id="ref1" type="button" onclick="changeImage()">
+        <img id = "ref" src="cap/refresh.png" alt="Refresh">
+      </button>
+      <br>
+      <br>
+      <input type="text" name="Verify" placeholder="Enter the captcha">
+
+      <br>
+        <div class="btn"><input type="submit" name="button" value="Submit"></div>
+    <br></div>
+    </form>
+
+        <!--        <textarea name="messages" placeholder="Write to me"></textarea>-->
+           </div>
+    
+           <script src="scriptlogin.js"></script>
+    
+
+</body>
+
+</html>

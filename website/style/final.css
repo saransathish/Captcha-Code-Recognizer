@@ -1,0 +1,39 @@
+body 
+{
+    /*    background-image: url(/images/bg1.jpg);*/
+    /*    background-image: url(/images/bg2.jpg);*/
+    background-image: url(../img/login1.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: rgb(224, 229, 230);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.t{
+    font-weight: 1000000;
+    display: flex;
+    justify-content: center;
+    top: 41%;
+    right: 45%;
+    position:absolute;
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+    /* height: 100vh; */
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
